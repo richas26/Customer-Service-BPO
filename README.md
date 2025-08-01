@@ -60,15 +60,9 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch
 5. Create a Pull Request
 
-## 👥 Team
-- Rakshit Shah
-- Vivek Ranalkar
-- Shadan Anwar
+## Contributor 
 - Richa Shah
-- Kalyani Bonde
 
 ## 📄 License
 MIT licence
 
-## 🏆 EY Techathon 5.0
-This project was developed as part of EY Techathon 5.0, focusing on innovative solutions for business process optimization through technology.
