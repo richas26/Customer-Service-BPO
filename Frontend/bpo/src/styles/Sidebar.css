@@ -1,0 +1,19 @@
+/* src/styles/Sidebar.css */
+.sidebar-link {
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1e293b; /* Dark background for button look */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth background and scale transition */
+    padding: 8px 16px;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #4b5563; /* Slightly lighter background on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .sidebar-link:active {
+    background-color: #6b7280; /* Darker color on active click */
+  }
+  

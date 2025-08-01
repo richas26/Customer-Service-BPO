@@ -1,0 +1,173 @@
+
+body {
+    background-color: #00bcd4; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container for the form */
+  .form-container {
+    background-color: #000; /* Black background for the form */
+    color: #fff; /* White text */
+    border-radius: 8px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title of the form */
+  .form-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #f44336;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the form fields (input, textarea) */
+  .form-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s ease;
+  }
+  
+  .form-field:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn:active {
+    background-color: #004085;
+  }
+  
+  /* Style the form as bullet-point like with some spacing */
+  .form-container .form-field + .form-field {
+    margin-top: 10px;
+  }
+  
+  /* Bullet /* Ensure the body takes full height */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;  /* Align content from the left */
+    align-items: center;  /* Center the content vertically */
+    background-color: #f4f4f4;  /* Light gray background */
+    margin: 0;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;  /* Sidebar width */
+    height: 100%;
+    background-color: #333;  /* Dark background for sidebar */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Main content styling */
+  .main-content {
+    margin-left: 260px;  /* Create space for sidebar */
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  /* Container for the Task Scheduler component */
+  .task-scheduler-container {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    margin: 0 auto;
+  }
+  
+  /* Styling form fields */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Focused input/textarea styles */
+  input:focus,
+  textarea:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #388e3c;
+    transform: scale(0.98);
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  

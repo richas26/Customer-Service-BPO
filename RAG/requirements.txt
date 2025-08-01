@@ -1,0 +1,19 @@
+# Streamlit for building the web application
+streamlit>=1.0.0
+
+# Typing extensions for type hints and annotations
+typing-extensions>=4.0.0
+
+# Groq for the Groq API integration
+groq>=0.1.0
+
+# LangChain and community modules for text processing and embeddings
+langchain>=0.0.1
+langchain-community>=0.0.1
+
+# PyPDF2 for PDF handling
+PyPDF2>=3.0.0
+
+# Additional dependencies for vector store (FAISS) and Hugging Face embeddings
+faiss-cpu>=1.7.2
+transformers>=4.0.0

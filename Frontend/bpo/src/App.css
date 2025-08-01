@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply fadeIn animation to profile icon */
+.profile-icon {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Profile Info Section */
+.profile-info {
+  text-align: left;
+  margin-top: 15px;
+  animation: fadeIn 1s ease-out;
+}
+
